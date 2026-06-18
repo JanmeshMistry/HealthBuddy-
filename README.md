@@ -94,30 +94,4 @@ HealthBuddy can be deployed for free on Vercel:
 
 ---
 
-## 📦 Uploading to GitHub
-
-To upload this project to your GitHub account:
-
-1.  **Initialize Git:**
-    ```bash
-    git init
-    ```
-2.  **Add and Commit Files:**
-    ```bash
-    git add .
-    git commit -m "Initial commit of HealthBuddy Medical Report Assistant"
-    ```
-3.  **Create a Repository on GitHub:**
-    *   Go to [github.com/new](https://github.com/new).
-    *   Name the repository `healthbuddy` (do not initialize with README or .gitignore).
-4.  **Link and Push:**
-    Copy the commands from your new GitHub repository page:
-    ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/healthbuddy.git
-    git branch -M main
-    git push -u origin main
-    ```
-
----
-
 *Disclaimer: HealthBuddy is an educational tool designed to clarify medical reports. It does not provide medical diagnoses, treatment plans, or professional clinical opinions.*
