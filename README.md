@@ -69,29 +69,4 @@ HealthBuddy is a premium, secure, and user-friendly web application that transla
 
 ---
 
-## ☁️ Deployment to Vercel
-
-HealthBuddy can be deployed for free on Vercel:
-
-1.  **Install Vercel CLI** (or connect your GitHub repository directly to Vercel):
-    ```bash
-    npm install -g vercel
-    ```
-2.  **Deploy the Project:**
-    Run this command in the root folder:
-    ```bash
-    vercel
-    ```
-3.  **Add Environment Variables on Vercel:**
-    During setup (or in the Vercel Dashboard under **Settings > Environment Variables**), add the following keys matching your local `.env.local`:
-    *   `AI_PROVIDER` (e.g. `groq` or `openrouter`)
-    *   `GROQ_API_KEY` (or `OPENROUTER_API_KEY`)
-    *   `GROQ_MODEL` (e.g. `llama-3.3-70b-versatile`)
-4.  **Promote to Production:**
-    ```bash
-    vercel --prod
-    ```
-
----
-
 *Disclaimer: HealthBuddy is an educational tool designed to clarify medical reports. It does not provide medical diagnoses, treatment plans, or professional clinical opinions.*
